@@ -18,10 +18,10 @@ function setup() {
   world = engine.world;
 	
    //Create Player Base and Computer Base Object
-    computerBase=new ComputerBase(300,600,450,200);
-    playerBase=new PlayerBase(1700,600,450,200);
-    player=new Player(1700,320,200,400);
-    computerPlayer=new ComputerPlayer(300,320,200,400);
+    computerBase=new ComputerBase(width-1700,600,450,200);
+    playerBase=new PlayerBase(width-400,600,450,200);
+    player=new Player(width-400,320,200,400);
+    computerPlayer=new ComputerPlayer(width-1700,320,200,400);
  }
 
 function draw() {
