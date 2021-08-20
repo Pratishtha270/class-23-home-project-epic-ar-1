@@ -11,17 +11,17 @@ var player;
 var computerPlayer;
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(1500,800);
   
    //Initialising Engine
   engine = Engine.create();
   world = engine.world;
 	
    //Create Player Base and Computer Base Object
-    computerBase=new ComputerBase(width-1700,600,450,200);
-    playerBase=new PlayerBase(width-400,600,450,200);
-    player=new Player(width-400,320,200,400);
-    computerPlayer=new ComputerPlayer(width-1700,320,200,400);
+    computerBase=new ComputerBase(220,600,450,200);
+    playerBase=new PlayerBase(1280,600,450,200);
+    player=new Player(1280,320,200,400);
+    computerPlayer=new ComputerPlayer(220,320,200,400);
  }
 
 function draw() {
